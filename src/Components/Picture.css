@@ -1,0 +1,30 @@
+.picture {
+  height: 100%;
+  display: inline-block;
+}
+
+.picture img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro {
+  top: 20%;
+  left: 20%;
+  position: absolute;
+  max-width: 100%;
+  width: 40%;
+  max-height: 100%;
+  color: white;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.picture h1 {
+  font: bold 55px/83px Helvetica, Sans-Serif;
+}
+
+.picture h2 {
+  font: bold 35px/60px Helvetica, Sans-Serif;
+}
